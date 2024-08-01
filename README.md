@@ -1,5 +1,5 @@
 # GitStalk
-# [Visit Website](https://gitstalk23.netlify.app/)
+## [Visit Website](https://gitstalk23.netlify.app/)
 ## Stalk without letting them know you are stalking.
 
 ## Developed a web application that utilizes the GitHub API to fetch and display detailed information about GitHub users.
