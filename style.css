@@ -1,0 +1,137 @@
+body{
+    background-color:#131314 ;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.gitcaerd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+.formi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gitimage{
+    width: 180px;
+    border-radius: 50%;
+    margin: 15px;
+   
+    
+}
+.navh2{
+    padding: 10px 20px;
+    font-weight: 2px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.hlo{
+    font-size: 3.6rem;
+    font-weight: 500;
+    background: linear-gradient(270deg, #f7612a 50%, #2f5af6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.gitcard{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #444746;
+    
+}
+.userinput{
+    height: 55px;
+    width: 60%;
+    background-color: #1e1f20;
+    border-top-left-radius:2rem ;
+    border-bottom-left-radius:2rem ;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+.userinput::placeholder {
+    color: rgb(195, 192, 192); /* White color for placeholder text */
+}
+.find{
+    color: white;
+    background-color: #131314;
+    border: none;
+    cursor: pointer;
+    height: 55px;
+    background-color: #1e1f20;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-right: 20px;
+}
+.foloow{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+.name{
+    font-size: 2rem;
+    font-weight: 500;
+    background: linear-gradient(270deg, #f7612a 50%, #2f5af6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.bio{
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.followers{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 10px 20px;
+    color: #9b9b9b;
+  
+}
+.location{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 10px 20px;
+    color: #9b9b9b;
+}
+@media screen and (max-width: 900px) {
+    .bio{
+   
+        width: 70%;
+       
+    }
+}
+@media screen and (max-width: 480px) {
+    .bio{
+        font-size: 1.1rem;
+        width: 90%;
+       
+    }
+    .followers{
+        font-size: 1rem;
+      
+        margin: 10px 15px;
+     
+      
+    }
+    .location{
+        font-size: 1rem;
+      
+        margin: 10px 15px;
+      
+    }
+    .gitcaerd{
+      
+        height: 520px;
+    }
+  }
